@@ -13,7 +13,7 @@ body {
 }
 
 .logo {
-    width: 65px;
+    width: 55px;
 }
 
 header {
@@ -111,152 +111,152 @@ main{
 .bg-img {
     position: absolute;
     z-index: 1;
-    width: 2800px;
-    top: calc(50% - 390px);
-    left: calc(50% + 10px);
+    width: 194.44%;
+    top: 1.86%;
+    left: 50.69%;
 
 }
 
 .fog-7 {
     position: absolute;
     z-index: 2;
-    width: 1900px;
-    top: calc(50% - 100px);
-    left: calc(50% + 300px);
+    width: 132%;
+    top: 37.7%;
+    left: 70.8%;
 
 }
 
 .fog-1 {
     position: absolute;
     z-index: 21;
-    width: 1600px;
-    top: calc(100%);
-    left: 50%;
+    width: 111.8%;
+    top: 59.26%;
+    left: 50.69%;
 
 }
 
 .mountain-10 {
     position: absolute;
     z-index: 3;
-    width: 870px;
-    top: calc(50% + 69px);
-    left: calc(50% + 230px);
+    width: 60.41%;
+    top: 54.79%;
+    left: 65.97%;
 
 }
 
 .fog-2 {
     position: absolute;
-    z-index: 4;
-    width: 1833px;
-    top: calc(50% + 95px);
-    left: calc(50% + 7px);
+    z-index: 16;
+    width: 108.33%;
+    top: 68.14%;
+    left: 48%;
 
 }
 
 .mountain-9 {
     position: absolute;
     z-index: 5;
-    width: 463px;
-    top: calc(50% + 119px);
-    left: calc(50% - 457px);
+    width: 32.152%;
+    top: 58.26%;
+    left: 18.26%;
 
 }
 
 .mountain-8 {
     position: absolute;
     z-index: 6;
-    width: 786px;
-    top: calc(50% + 96px);
-    left: calc(50% - 202px);
+    width: 54.58%;
+    top: 56.66%;
+    left: 35.97%;
 
 }
 
 .fog-3 {
     position: absolute;
     z-index: 7;
-    width: 449px;
-    top: calc(50% + 171px);
-    left: calc(50% + 29px);
+    width: 31.18%;
+    top: 61.875%;
+    left: 52.01%;
 
 }
 
 .mountain-7 {
     position: absolute;
     z-index: 8;
-    width: 515px;
-    top: calc(50% + 134px);
-    left: calc(50% + 305px);
+    width: 35.76%;
+    top: 59.305%;
+    left: 71.18%;
 }
 
 .mountain-6 {
     position: absolute;
     z-index: 10;
-    width: 383.5px;
-    top: calc(50% + 86.5px);
-    left: calc(50% + 590px);
+    width: 26.77%;
+    top: 56%;
+    left: 90.97%;
 }
 
 .fog-4 {
     position: absolute;
     z-index: 11;
-    width: 543px;
-    top: calc(50% + 242px);
-    left: calc(50% + 130px);
+    width: 37.71%;
+    top: 66.80%;
+    left: 59.02%;
 }
 
 .fog-5 {
     position: absolute;
     z-index: 13;
-    width: 1435px;
-    top: calc(50% + 149px);
-    left: calc(50% -28px);
+    width: 99.65%;
+    top: 60.347%;
+    left: 48.05%;
 }
 
 .mountain-4 {
     position: absolute;
     z-index: 14;
-    width: 717px;
-    top: calc(50% + 221px);
-    left: calc(50% - 381.5px);
+    width: 49.79%;
+    top: 65.347%;
+    left: 23.506%;
 }
 
 .mountain-3 {
     position: absolute;
     z-index: 15;
-    width: 419px;
-    top: calc(50% + 133px);
-    left: calc(50% + 736px);
+    width: 29.097%;
+    top: 59.236%;
+    left: 101.11%;
 }
 
 .fog-6 {
     position: absolute;
     z-index: 2;
-    width: 1418px;
-    top: calc(50% + 177px);
-    left: calc(50% - 30px);
+    width: 98.47%;
+    top: 62.29%;
+    left: 47.91%;
 }
 
 .mountain-2 {
     position: absolute;
     z-index: 17;
-    width: 625px;
-    top: calc(50% + 188px);
-    left: calc(50% + 412px);
+    width: 47.91%;
+    top: 69.01%;
+    left: 78.61%;
 }
 
 .mountain-1 {
     position: absolute;
     z-index: 18;
-    width: 450px;
-    top: calc(50% + 91.5px);
-    left: calc(50% - 601px);
+    width: 37.15%;
+    top: 52%;
+    left: 8.27%;
 }
 
 .text{
     position: absolute;
-    z-index: 9;
-    top: 50%;
-    left: 50%;
+    z-index: 14;
+    top: 40%;
+    left: 52%;
     text-align: center;
     text-transform: uppercase;
     pointer-events: auto;
@@ -309,4 +309,73 @@ main{
 .parallax{
     pointer-events: none;
     transition: 0.45s cubic-bezier(0.2, 0.49, 0.32, 0.99);
+}
+
+@media (max-width: 1100px) {
+    .text h1{
+        font-size: 5.8rem;
+    }
+    .text h2{
+        font-size: 4.7rem;
+    }   
+    
+}
+
+@media (max-width: 725px) {
+    .text h1{
+        font-size: 5rem;
+        line-height: 1.1;
+    }
+    .text h2{
+        font-size: 4.1rem;
+        line-height: 1.1;
+    }   
+
+    header nav{
+        padding: 0 1rem;
+    }
+
+    .logo{
+        width: 75px;       
+    }
+
+    header url a{
+        font-size: 0.73rem;
+        padding: 0 0.9rem;
+    }
+
+    .search a{
+        font-size: 0.85rem;
+        padding: 0 1.8rem;
+    }
+
+    .hamburger{
+        padding-left: 0.9rem;
+    }
+
+    .hamburger a{
+        height: 30px;
+        width: 30px;
+    }
+
+    .bg-img{
+        width: initial;
+        height: 311.104%;
+    }
+
+    .fog-7{
+        width: initial;
+        height: 211.2%;    
+    }
+    
+}
+
+@media (max-width: 520px) {
+    .text h1{
+        font-size: 3.3rem;
+    }
+    .text h2{
+        font-size: 2.6rem;
+    }   
+    
 }
